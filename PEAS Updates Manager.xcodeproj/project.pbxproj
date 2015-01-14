@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC31516619A3CD15006FCB94 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC31516519A3CD15006FCB94 /* Cocoa.framework */; };
+		BC31516819A3CD16006FCB94 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC31516719A3CD15006FCB94 /* AppleScriptObjC.framework */; };
+		BC31517219A3CD16006FCB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC31517019A3CD16006FCB94 /* InfoPlist.strings */; };
+		BC31517419A3CD16006FCB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31517319A3CD16006FCB94 /* main.m */; };
+		BC31517819A3CD16006FCB94 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC31517619A3CD16006FCB94 /* Credits.rtf */; };
+		BC31517A19A3CD16006FCB94 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = BC31517919A3CD16006FCB94 /* AppDelegate.applescript */; };
+		BC31517D19A3CD16006FCB94 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC31517B19A3CD16006FCB94 /* MainMenu.xib */; };
+		BCF65E1C19A3DB7900B786CF /* Giraffe.icns in Resources */ = {isa = PBXBuildFile; fileRef = BCF65E1B19A3DB7900B786CF /* Giraffe.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC31516219A3CD15006FCB94 /* PEAS Updates Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PEAS Updates Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC31516519A3CD15006FCB94 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC31516719A3CD15006FCB94 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		BC31516A19A3CD16006FCB94 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC31516B19A3CD16006FCB94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC31516C19A3CD16006FCB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC31516F19A3CD16006FCB94 /* PEAS Updates Manager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PEAS Updates Manager-Info.plist"; sourceTree = "<group>"; };
+		BC31517119A3CD16006FCB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC31517319A3CD16006FCB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC31517519A3CD16006FCB94 /* PEAS Updates Manager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PEAS Updates Manager-Prefix.pch"; sourceTree = "<group>"; };
+		BC31517719A3CD16006FCB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC31517919A3CD16006FCB94 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		BC31517C19A3CD16006FCB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BCF65E1B19A3DB7900B786CF /* Giraffe.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Giraffe.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC31515F19A3CD15006FCB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC31516619A3CD15006FCB94 /* Cocoa.framework in Frameworks */,
+				BC31516819A3CD16006FCB94 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC31515919A3CD15006FCB94 = {
+			isa = PBXGroup;
+			children = (
+				BCF65E1B19A3DB7900B786CF /* Giraffe.icns */,
+				BC31516D19A3CD16006FCB94 /* MacManagementXC4 */,
+				BC31516419A3CD15006FCB94 /* Frameworks */,
+				BC31516319A3CD15006FCB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC31516319A3CD15006FCB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC31516219A3CD15006FCB94 /* PEAS Updates Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC31516419A3CD15006FCB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC31516519A3CD15006FCB94 /* Cocoa.framework */,
+				BC31516719A3CD15006FCB94 /* AppleScriptObjC.framework */,
+				BC31516919A3CD16006FCB94 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC31516919A3CD16006FCB94 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC31516A19A3CD16006FCB94 /* AppKit.framework */,
+				BC31516B19A3CD16006FCB94 /* CoreData.framework */,
+				BC31516C19A3CD16006FCB94 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC31516D19A3CD16006FCB94 /* MacManagementXC4 */ = {
+			isa = PBXGroup;
+			children = (
+				BC31517919A3CD16006FCB94 /* AppDelegate.applescript */,
+				BC31517B19A3CD16006FCB94 /* MainMenu.xib */,
+				BC31516E19A3CD16006FCB94 /* Supporting Files */,
+			);
+			path = MacManagementXC4;
+			sourceTree = "<group>";
+		};
+		BC31516E19A3CD16006FCB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC31516F19A3CD16006FCB94 /* PEAS Updates Manager-Info.plist */,
+				BC31517019A3CD16006FCB94 /* InfoPlist.strings */,
+				BC31517319A3CD16006FCB94 /* main.m */,
+				BC31517519A3CD16006FCB94 /* PEAS Updates Manager-Prefix.pch */,
+				BC31517619A3CD16006FCB94 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC31516119A3CD15006FCB94 /* PEAS Updates Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC31518019A3CD16006FCB94 /* Build configuration list for PBXNativeTarget "PEAS Updates Manager" */;
+			buildPhases = (
+				BC31515E19A3CD15006FCB94 /* Sources */,
+				BC31515F19A3CD15006FCB94 /* Frameworks */,
+				BC31516019A3CD15006FCB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PEAS Updates Manager";
+			productName = MacManagementXC4;
+			productReference = BC31516219A3CD15006FCB94 /* PEAS Updates Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC31515A19A3CD15006FCB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Partners;
+			};
+			buildConfigurationList = BC31515D19A3CD15006FCB94 /* Build configuration list for PBXProject "PEAS Updates Manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC31515919A3CD15006FCB94;
+			productRefGroup = BC31516319A3CD15006FCB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC31516119A3CD15006FCB94 /* PEAS Updates Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC31516019A3CD15006FCB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC31517219A3CD16006FCB94 /* InfoPlist.strings in Resources */,
+				BC31517819A3CD16006FCB94 /* Credits.rtf in Resources */,
+				BC31517D19A3CD16006FCB94 /* MainMenu.xib in Resources */,
+				BCF65E1C19A3DB7900B786CF /* Giraffe.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC31515E19A3CD15006FCB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC31517419A3CD16006FCB94 /* main.m in Sources */,
+				BC31517A19A3CD16006FCB94 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC31517019A3CD16006FCB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC31517119A3CD16006FCB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC31517619A3CD16006FCB94 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC31517719A3CD16006FCB94 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC31517B19A3CD16006FCB94 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC31517C19A3CD16006FCB94 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC31517E19A3CD16006FCB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC31517F19A3CD16006FCB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC31518119A3CD16006FCB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacManagementXC4/PEAS Updates Manager-Prefix.pch";
+				INFOPLIST_FILE = "MacManagementXC4/PEAS Updates Manager-Info.plist";
+				PRODUCT_NAME = "PEAS Updates Manager";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC31518219A3CD16006FCB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacManagementXC4/PEAS Updates Manager-Prefix.pch";
+				INFOPLIST_FILE = "MacManagementXC4/PEAS Updates Manager-Info.plist";
+				PRODUCT_NAME = "PEAS Updates Manager";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC31515D19A3CD15006FCB94 /* Build configuration list for PBXProject "PEAS Updates Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC31517E19A3CD16006FCB94 /* Debug */,
+				BC31517F19A3CD16006FCB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC31518019A3CD16006FCB94 /* Build configuration list for PBXNativeTarget "PEAS Updates Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC31518119A3CD16006FCB94 /* Debug */,
+				BC31518219A3CD16006FCB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC31515A19A3CD15006FCB94 /* Project object */;
+}
